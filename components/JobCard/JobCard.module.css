@@ -1,0 +1,36 @@
+.card{
+    @apply min-h-full bg-white rounded-2xl px-4 py-6 flex justify-between items-center shadow-2xl;
+}
+
+.image{
+    @apply w-20 h-20 rounded-full;
+}
+
+.cardTitle{
+    @apply max-w-4xl font-bold text-xl tracking-tight text-cyan-900;
+}
+
+.extraData{
+    @apply font-light text-gray-400 my-2;
+}
+
+.location{
+    @apply font-light text-gray-400 flex items-center gap-1;
+}
+
+.subContainer{
+    @apply h-28 flex flex-col justify-between ml-8;
+}
+
+.bookMarkBox{
+    @apply flex justify-end;
+}
+
+.bookMarkIcon{
+    @apply hover:fill-sky-900;
+}
+
+.pubDate{
+    @apply font-light text-gray-400;
+}
+
